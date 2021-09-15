@@ -76,6 +76,10 @@ nav :hover {
   padding-top: 10%;
 }
 
+.alert {
+  text-align: center;
+}
+
 @media screen and (max-width: 900px) {
   .box .box-info2 {
     padding-right: 0;
