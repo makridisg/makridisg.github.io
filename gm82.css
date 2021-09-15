@@ -77,7 +77,7 @@ nav :hover {
 }
 
 @media screen and (max-width: 900px) {
-  .box-info2 {
+  .box .box-info2 {
     padding-right: 0;
   }
   .btn-contact a {
