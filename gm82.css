@@ -1,0 +1,47 @@
+@import url(/bootstrap/css/bootstrap.css);
+body {
+  background: #212529;
+  color: #e7e7e7;
+}
+
+.myName {
+  text-decoration: none;
+  color: #111518;
+  font-weight: 400;
+  padding-right: 3%;
+}
+
+.myName :hover {
+  color: yellow;
+}
+
+.navbar-brand {
+  padding-left: 2%;
+}
+
+.nav-item :hover {
+  color: yellow;
+}
+
+#box {
+  margin: 3%;
+  margin-right: 10%;
+}
+
+#button-contact {
+  padding-left: 3%;
+}
+
+#footer p {
+  font-family: Literata, serif;
+  position: fixed;
+  left: 0;
+  bottom: -15px;
+  width: 100%;
+  color: #e7e7e7;
+  text-align: center;
+  padding: 2%;
+  text-decoration: none;
+  font-size: 14px;
+}
+/*# sourceMappingURL=gm82.css.map */

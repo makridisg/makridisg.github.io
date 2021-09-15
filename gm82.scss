@@ -1,0 +1,67 @@
+@import url(/bootstrap/css/bootstrap.css);
+
+// settings
+$font: Comfortaa, Display;
+$font2: Literata, serif;
+$background: linear-gradient(0deg, rgb(255,10,100) 10%, rgb(252,252,0) 92%);
+$background2: #e7e7e7;
+$box-background: rgb(206, 206, 206);
+$button-contact: rgb(230, 230, 230);
+$h1_size: 40px;
+$h2_size: 25px;
+$h3_size: 20px;
+$p_size: 17px;
+$text-color1: #111518;
+
+// - end of settings -
+
+body{
+    background: #212529;
+    color: #e7e7e7;
+}
+
+.myName{
+    text-decoration: none;
+    color: #111518;
+    font-weight: 400;
+    padding-right: 3%;
+
+    :hover{
+        color: yellow;
+    }
+}
+
+.navbar-brand{
+    padding-left: 2%;
+}
+
+.nav-item{
+    :hover{
+        color: yellow;
+    }
+}
+
+#box{
+    margin: 3%;
+    margin-right: 10%;
+}
+
+#button-contact{
+    padding-left: 3%;
+}
+
+#footer{
+
+    p{
+        font-family: $font2;
+        position: fixed;
+        left: 0;
+        bottom: -15px;
+        width: 100%;
+        color: #e7e7e7;
+        text-align: center;
+        padding: 2%;
+        text-decoration: none;
+        font-size: 14px;        
+    }
+}
