@@ -1,25 +1,24 @@
 @import url(/bootstrap/css/bootstrap.css);
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap");
 body {
   background: #212529;
   color: #e7e7e7;
+  font-family: Comfortaa, Display;
 }
 
 .myName {
   text-decoration: none;
+  font-family: Comfortaa, Display;
   color: #111518;
-  font-weight: 400;
+  font-weight: 700;
   padding-right: 3%;
-}
-
-.myName :hover {
-  color: yellow;
 }
 
 .navbar-brand {
   padding-left: 2%;
 }
 
-.nav-item :hover {
+nav :hover {
   color: yellow;
 }
 
@@ -36,27 +35,44 @@ body {
   padding-right: 20%;
 }
 
+.box .box-info2 span {
+  background-color: yellow;
+  color: #111518;
+  padding: .5%;
+}
+
 .btn-contact {
   padding-left: 3%;
 }
 
 .btn-contact a {
   text-decoration: none;
-  color: yellow;
+  color: #111518;
+  font-weight: 500;
+  font-size: 17px;
   background-color: #e7e7e7;
   padding: 1%;
+  border-radius: 21px;
+}
+
+.btn-contact :hover {
+  background-color: yellow;
+  color: #111518;
+  -webkit-box-shadow: 8px 8px #111518;
+          box-shadow: 8px 8px #111518;
 }
 
 #footer p {
   font-family: Literata, serif;
-  position: fixed;
+  position: relative;
   left: 0;
   bottom: -15px;
   width: 100%;
   color: #e7e7e7;
-  text-align: center;
-  padding: 2%;
+  text-align: left;
   text-decoration: none;
   font-size: 14px;
+  bottom: 0;
+  padding-top: 10%;
 }
 /*# sourceMappingURL=gm82.css.map */
