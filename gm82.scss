@@ -42,12 +42,27 @@ body{
 }
 
 .box{
-    margin: 3%;
-    margin-right: 10%;
+    padding: 3%;
+    padding-top: 5%;
+
+    #box-info{
+        color: yellow;
+    }
+
+    .box-info2{
+        padding-right: 20%;
+    }
 }
 
-#button-contact{
+.btn-contact{
     padding-left: 3%;
+
+    a{
+        text-decoration: none;
+        color: yellow;
+        background-color: $background2;
+        padding: 1%;
+    }
 }
 
 #footer{
