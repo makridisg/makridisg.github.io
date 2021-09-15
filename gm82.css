@@ -32,7 +32,7 @@ nav :hover {
 }
 
 .box .box-info2 {
-  padding-right: 20%;
+  padding-right: 15%;
 }
 
 .box .box-info2 span {
@@ -52,7 +52,7 @@ nav :hover {
   font-size: 17px;
   background-color: #e7e7e7;
   padding: 1%;
-  border-radius: 21px;
+  border-radius: 8px;
 }
 
 .btn-contact :hover {
@@ -77,6 +77,9 @@ nav :hover {
 }
 
 @media screen and (max-width: 900px) {
+  .box-info2 {
+    padding-right: 0;
+  }
   .btn-contact a {
     padding: 10px;
     border-radius: 8px;
