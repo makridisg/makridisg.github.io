@@ -48,11 +48,7 @@ nav :hover {
 }
 
 .btn-contact {
-  margin: 0;
-  position: absolute;
-  left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
+  padding-left: 3%;
 }
 
 .btn-contact a {
@@ -141,6 +137,13 @@ nav :hover {
 @media screen and (max-width: 900px) {
   .box .box-info2 {
     padding-right: 0;
+  }
+  .btn-contact {
+    margin: 0;
+    position: absolute;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
   }
   .btn-contact a {
     padding: 10px;
