@@ -13,8 +13,9 @@ $h2_size: 25px;
 $h3_size: 20px;
 $p_size: 17px;
 $text-color1: #111518;
-
 // - end of settings -
+
+
 
 body{
     background: #212529;
@@ -97,6 +98,48 @@ nav{
         font-size: 14px;
         bottom: 0;
         padding-top: 10%;
+    }
+}
+
+#cardBox{
+    align-content: center;
+}
+
+#card{
+    margin: 2%;
+}
+
+.cardIn{
+    height: 440px;
+    width: 380px;
+    margin: 2%;
+    background-color: $background2;
+    border-radius: 8px;
+    box-shadow: 8px 8px #111518;
+    border-color: yellow;
+    border-width: 1px;
+    border-style: solid;
+
+    img{
+        width: 100%;
+        z-index: 2;
+        margin-top: -18px;
+        object-fit: fill;
+    }
+
+    //text
+    h1{
+        color: $text-color1;
+        text-align: center;
+        padding: 20px;
+    }
+
+    p{
+        color: $text-color1;
+        padding-left: 15px;
+        padding-right: 15px;
+        z-index: 1;
+        margin-top: 5px;
     }
 }
 

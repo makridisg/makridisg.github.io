@@ -76,6 +76,50 @@ nav :hover {
   padding-top: 10%;
 }
 
+#cardBox {
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+
+#card {
+  margin: 2%;
+}
+
+.cardIn {
+  height: 440px;
+  width: 380px;
+  margin: 2%;
+  background-color: #e7e7e7;
+  border-radius: 8px;
+  -webkit-box-shadow: 8px 8px #111518;
+          box-shadow: 8px 8px #111518;
+  border-color: yellow;
+  border-width: 1px;
+  border-style: solid;
+}
+
+.cardIn img {
+  width: 100%;
+  z-index: 2;
+  margin-top: -18px;
+  -o-object-fit: fill;
+     object-fit: fill;
+}
+
+.cardIn h1 {
+  color: #111518;
+  text-align: center;
+  padding: 20px;
+}
+
+.cardIn p {
+  color: #111518;
+  padding-left: 15px;
+  padding-right: 15px;
+  z-index: 1;
+  margin-top: 5px;
+}
+
 .alert {
   text-align: center;
 }
