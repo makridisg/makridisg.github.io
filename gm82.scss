@@ -78,19 +78,21 @@ nav{
         color: #111518;
         font-weight: 500;
         font-size: 17px;
-        background-color: $background2;
         padding: 1%;
-        border-radius: 8px;
-        border-width: 2px;
-        border-style: solid;
-        border-color: #212529;
-    }
-
-    :hover{
+        //style
         border-width: 0;
         background-color: yellow;
         color: #111518;
         box-shadow: 8px 8px #111518;
+    }
+
+    :hover{
+        //style
+        background-color: $background2;
+        border-radius: 8px;
+        border-width: 2px;
+        border-style: solid;
+        border-color: #212529;
     }
 }
 
@@ -99,19 +101,25 @@ nav{
     p{
         //font-family: $font2;
         font-weight: 700;
-        //position: fixed;
-        position: relative;
+        position: fixed;
+        //position: relative;
         left: 0;
-        bottom: -15px;
         width: 100%;
-        color: #212529;
+        color: #e7e7e7;
         text-align: left;
-        //padding: 2%;
+        padding: 2%;
         text-decoration: none;
         font-size: 14px;
         bottom: 0;
-        padding-top: 10%;
+        padding-top: 12px;
+        background-color: #212529;
+        height: 40px;
+        margin-bottom: 0;
     }
+}
+
+.index{
+    margin-bottom: 100px;
 }
 
 #cardBox{
@@ -170,9 +178,8 @@ nav{
     
     .btn-contact{
         padding: 0;
-        margin: 2% 0 0 0;
+        padding-top: 7%;
         position: absolute;
-        //top: 50%;
         left: 50%;
         -ms-transform: translate(-50%, -50%);
         transform: translate(-50%, -50%);
@@ -181,6 +188,7 @@ nav{
             padding: 10px;
             border-radius: 8px;
             font-size: 12px;
+            font-weight: 700;
         }
     }
 
