@@ -84,6 +84,7 @@ nav{
         background-color: yellow;
         color: #111518;
         box-shadow: 8px 8px #111518;
+        border-radius: 8px;
     }
 
     :hover{
@@ -100,7 +101,7 @@ nav{
 
     p{
         //font-family: $font2;
-        font-weight: 700;
+        //font-weight: 700;
         position: fixed;
         //position: relative;
         left: 0;
@@ -186,7 +187,7 @@ nav{
 
         a{
             padding: 10px;
-            border-radius: 8px;
+            border-radius: 4px;
             font-size: 12px;
             font-weight: 700;
         }
