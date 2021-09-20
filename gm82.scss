@@ -50,12 +50,12 @@ nav{
     cursor: default;
 
     #box-info{
-        color: #e7e7e7;
+        color: #111518;
     }
 
     .box-info2{
         padding-right: 15%;
-        color: #e7e7e7;
+        //color: #e7e7e7;
 
         span{
             background-color: rgb(51, 51, 51);
@@ -183,8 +183,9 @@ nav{
     }
 }
 
+/*animation
 body {
-    background-color: #111111;
+    background-color: #212529;
     margin: 0;
     overflow-x: hidden;
   }
@@ -216,4 +217,4 @@ body {
       80% { transform: translate(-15%,0) }
       90% { transform: translate(10%,5%) }
       100% { transform: translate(5%,0) }
-  }
+  }*/
