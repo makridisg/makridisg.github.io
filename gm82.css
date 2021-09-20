@@ -73,12 +73,12 @@ nav :hover {
 }
 
 #footer p {
-  font-family: Literata, serif;
+  font-weight: 700;
   position: relative;
   left: 0;
   bottom: -15px;
   width: 100%;
-  color: #e7e7e7;
+  color: #212529;
   text-align: left;
   text-decoration: none;
   font-size: 14px;
@@ -144,121 +144,6 @@ nav :hover {
   }
   #footer p {
     font-size: 12px;
-  }
-}
-
-/*body {
-    background-color: #212529;
-    margin: 0;
-    overflow-x: hidden;
-  }*/
-.bg {
-  position: fixed;
-  top: -50%;
-  left: -50%;
-  right: -50%;
-  bottom: -50%;
-  width: 200%;
-  height: 200vh;
-  background: transparent url("http://assets.iceable.com/img/noise-transparent.png") repeat 0 0;
-  background-repeat: repeat;
-  -webkit-animation: bg-animation .5s infinite;
-          animation: bg-animation .5s infinite;
-  opacity: .9;
-  visibility: visible;
-}
-
-@-webkit-keyframes bg-animation {
-  0% {
-    -webkit-transform: translate(0, 0);
-            transform: translate(0, 0);
-  }
-  10% {
-    -webkit-transform: translate(-5%, -5%);
-            transform: translate(-5%, -5%);
-  }
-  20% {
-    -webkit-transform: translate(-10%, 5%);
-            transform: translate(-10%, 5%);
-  }
-  30% {
-    -webkit-transform: translate(5%, -10%);
-            transform: translate(5%, -10%);
-  }
-  40% {
-    -webkit-transform: translate(-5%, 15%);
-            transform: translate(-5%, 15%);
-  }
-  50% {
-    -webkit-transform: translate(-10%, 5%);
-            transform: translate(-10%, 5%);
-  }
-  60% {
-    -webkit-transform: translate(15%, 0);
-            transform: translate(15%, 0);
-  }
-  70% {
-    -webkit-transform: translate(0, 10%);
-            transform: translate(0, 10%);
-  }
-  80% {
-    -webkit-transform: translate(-15%, 0);
-            transform: translate(-15%, 0);
-  }
-  90% {
-    -webkit-transform: translate(10%, 5%);
-            transform: translate(10%, 5%);
-  }
-  100% {
-    -webkit-transform: translate(5%, 0);
-            transform: translate(5%, 0);
-  }
-}
-
-@keyframes bg-animation {
-  0% {
-    -webkit-transform: translate(0, 0);
-            transform: translate(0, 0);
-  }
-  10% {
-    -webkit-transform: translate(-5%, -5%);
-            transform: translate(-5%, -5%);
-  }
-  20% {
-    -webkit-transform: translate(-10%, 5%);
-            transform: translate(-10%, 5%);
-  }
-  30% {
-    -webkit-transform: translate(5%, -10%);
-            transform: translate(5%, -10%);
-  }
-  40% {
-    -webkit-transform: translate(-5%, 15%);
-            transform: translate(-5%, 15%);
-  }
-  50% {
-    -webkit-transform: translate(-10%, 5%);
-            transform: translate(-10%, 5%);
-  }
-  60% {
-    -webkit-transform: translate(15%, 0);
-            transform: translate(15%, 0);
-  }
-  70% {
-    -webkit-transform: translate(0, 10%);
-            transform: translate(0, 10%);
-  }
-  80% {
-    -webkit-transform: translate(-15%, 0);
-            transform: translate(-15%, 0);
-  }
-  90% {
-    -webkit-transform: translate(10%, 5%);
-            transform: translate(10%, 5%);
-  }
-  100% {
-    -webkit-transform: translate(5%, 0);
-            transform: translate(5%, 0);
   }
 }
 /*# sourceMappingURL=gm82.css.map */
