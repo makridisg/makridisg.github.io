@@ -183,12 +183,12 @@ nav{
     }
 }
 
-/*animation
-body {
+//animation
+/*body {
     background-color: #212529;
     margin: 0;
     overflow-x: hidden;
-  }
+  }*/
   
   .bg {
     position: fixed;
@@ -217,4 +217,4 @@ body {
       80% { transform: translate(-15%,0) }
       90% { transform: translate(10%,5%) }
       100% { transform: translate(5%,0) }
-  }*/
+  }
