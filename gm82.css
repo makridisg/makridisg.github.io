@@ -139,6 +139,7 @@ nav :hover {
     padding-right: 0;
   }
   .btn-contact {
+    padding: 0;
     margin: 0;
     position: absolute;
     left: 50%;
