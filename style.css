@@ -1,8 +1,6 @@
-@import url(/bootstrap/css/bootstrap.css);
-@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap");
 body {
-  background-color: #e7e7e7;
-  color: #111518;
+  background: #212529;
+  color: #e7e7e7;
   font-family: Comfortaa, Display;
 }
 
@@ -28,7 +26,7 @@ nav :hover {
 }
 
 .box #box-info {
-  color: #111518;
+  color: yellow;
 }
 
 .box .box-info2 {
@@ -36,14 +34,9 @@ nav :hover {
 }
 
 .box .box-info2 span {
-  background-color: #333333;
-  color: #e7e7e7;
-  padding: .4%;
-}
-
-.box .box-info2 span :hover {
   background-color: yellow;
   color: #111518;
+  padding: .5%;
 }
 
 .btn-contact {
@@ -58,13 +51,9 @@ nav :hover {
   background-color: #e7e7e7;
   padding: 1%;
   border-radius: 8px;
-  border-width: 2px;
-  border-style: solid;
-  border-color: #212529;
 }
 
 .btn-contact :hover {
-  border-width: 0;
   background-color: yellow;
   color: #111518;
   -webkit-box-shadow: 8px 8px #111518;
@@ -145,4 +134,4 @@ nav :hover {
     font-size: 12px;
   }
 }
-/*# sourceMappingURL=gm82.css.map */
+/*# sourceMappingURL=style.css.map */
