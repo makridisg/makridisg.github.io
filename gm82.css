@@ -9,6 +9,10 @@ body {
   font-family: Comfortaa, Display;
 }
 
+body body {
+  padding-top: 70px;
+}
+
 .myName {
   text-decoration: none;
   font-family: Comfortaa, Display;
