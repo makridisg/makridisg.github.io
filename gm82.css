@@ -32,6 +32,11 @@ nav :hover {
   color: #111518;
 }
 
+.box #box-info a {
+  text-decoration: none;
+  color: #111518;
+}
+
 .box .box-info2 {
   padding-right: 15%;
 }

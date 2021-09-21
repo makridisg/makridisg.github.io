@@ -7,6 +7,7 @@ $font: Comfortaa, Display;
 $font2: Literata, serif;
 $background: linear-gradient(0deg, rgb(255,10,100) 10%, rgb(252,252,0) 92%);
 $background2: #e7e7e7;
+$background3: linear-gradient(90deg, #e7e7e7 0%, #e2e1e1 40%, rgb(94, 94, 94) 100%);
 $box-background: rgb(206, 206, 206);
 $button-contact: rgb(230, 230, 230);
 $h1_size: 40px;
@@ -51,6 +52,11 @@ nav{
 
     #box-info{
         color: #111518;
+        
+        a{
+            text-decoration: none;
+            color: #111518;
+        }
     }
 
     .box-info2{
