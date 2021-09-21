@@ -64,13 +64,13 @@ nav :hover {
   border-width: 0;
   background-color: yellow;
   color: #111518;
-  -webkit-box-shadow: 8px 8px #111518;
-          box-shadow: 8px 8px #111518;
+  -webkit-box-shadow: 8px 8px #212529;
+          box-shadow: 8px 8px #212529;
   border-radius: 8px;
 }
 
 .btn-contact :hover {
-  background-color: #e7e7e7;
+  background-color: #ffdc00;
   border-radius: 8px;
   border-width: 2px;
   border-style: solid;

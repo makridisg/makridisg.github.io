@@ -89,13 +89,13 @@ nav{
         border-width: 0;
         background-color: yellow;
         color: #111518;
-        box-shadow: 8px 8px #111518;
+        box-shadow: 8px 8px #212529;
         border-radius: 8px;
     }
 
     :hover{
         //style
-        background-color: $background2;
+        background-color: rgb(255, 220, 0);
         border-radius: 8px;
         border-width: 2px;
         border-style: solid;
