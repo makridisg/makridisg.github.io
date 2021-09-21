@@ -48,14 +48,18 @@ nav :hover {
 }
 
 .btn-contact {
-  padding-left: 3%;
+  padding-top: 7%;
+  position: absolute;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
 }
 
 .btn-contact a {
   text-decoration: none;
   color: #111518;
   font-weight: 500;
-  font-size: 17px;
+  font-size: 15px;
   padding: 1%;
   border-width: 0;
   background-color: yellow;
@@ -156,7 +160,7 @@ nav :hover {
   .btn-contact a {
     padding: 10px;
     border-radius: 4px;
-    font-size: 12px;
+    font-size: 14px;
     font-weight: 700;
   }
   #footer p {

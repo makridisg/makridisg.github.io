@@ -71,13 +71,19 @@ nav{
 }
 
 .btn-contact{
-    padding-left: 3%;
+    //padding: 0;
+    padding-top: 7%;
+    position: absolute;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    //width: 100%;
 
     a{
         text-decoration: none;
         color: #111518;
         font-weight: 500;
-        font-size: 17px;
+        font-size: 15px;
         padding: 1%;
         //style
         border-width: 0;
@@ -188,7 +194,7 @@ nav{
         a{
             padding: 10px;
             border-radius: 4px;
-            font-size: 12px;
+            font-size: 14px;
             font-weight: 700;
         }
     }
