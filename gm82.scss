@@ -1,4 +1,7 @@
-@import url(/bootstrap/css/bootstrap.css);
+@import url('/fontawesome/css/fontawesome.css');
+@import url('/fontawesome/css/solid.css');
+@import url('/fontawesome/css/brands.css');
+@import url('/bootstrap/css/bootstrap.css');
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap');
 
 
@@ -206,6 +209,31 @@ nav{
     }
 }
 
+#myBtn {
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 50px; /* Place the button at the bottom of the page */
+    right: 15px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border-width: 0; /* Remove borders */
+    border-color: #dadada;
+    outline: none; /* Remove outline */
+    background-color: #212529; /* Set a background color */
+    color: white; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    //padding: 15px; /* Some padding */
+    border-radius: 50%; /* Rounded corners */
+    font-size: 21px; /* Increase font size */
+    font-weight: 700;
+    width: 50px;
+    height: 50px;
+    //box-shadow: 3px 3px #212529;
+  }
+  
+#myBtn:hover {
+    background-color: #555; /* Add a dark-grey background on hover */
+  }
+
 @media screen and (max-width: 1100px) {
 
     .box{
@@ -217,7 +245,7 @@ nav{
     .btn-contact{
         padding: 0;
         padding-top: 7%;
-        padding-bottom: 20px;
+        padding-bottom: 90px;
         position: absolute;
         left: 50%;
         -ms-transform: translate(-50%, -50%);
