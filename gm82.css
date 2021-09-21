@@ -1,7 +1,7 @@
 @import url(/bootstrap/css/bootstrap.css);
 @import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap");
 body {
-  background-color: #e7e7e7;
+  background: #e7e7e7;
   color: #111518;
   font-family: Comfortaa, Display;
 }
@@ -53,6 +53,7 @@ nav :hover {
 }
 
 .btn-contact {
+  margin-top: 50px;
   padding-top: 7%;
   position: absolute;
   left: 50%;
