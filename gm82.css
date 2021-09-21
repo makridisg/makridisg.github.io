@@ -53,6 +53,7 @@ nav :hover {
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
+  padding-bottom: 140px;
 }
 
 .btn-contact a {
@@ -143,6 +144,29 @@ nav :hover {
 
 .alert {
   text-align: center;
+}
+
+.printing {
+  padding-top: 15px;
+}
+
+.printing .col-5 {
+  padding: 0;
+}
+
+.printing img {
+  width: 100%;
+  height: 85%;
+}
+
+.printing h5 {
+  background-color: #212529;
+  color: #e7e7e7;
+  padding: 1%;
+}
+
+.printing p {
+  padding-top: 1%;
 }
 
 @media screen and (max-width: 1100px) {
